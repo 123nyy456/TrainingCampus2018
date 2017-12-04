@@ -1,3 +1,8 @@
+#include <mutex>
+#include <memory>
+#include <functional>
+#include <condition_variable>
+
 template<typename Data>
 class ConcurrentQueue
 {
